@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RunningTotalCalculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+       try( Scanner scanner = new Scanner(System.in)){
         
         // Variables to store numbers
         int num1, num2, num3, num4;
@@ -34,4 +34,5 @@ public class RunningTotalCalculator {
         
         scanner.close();
     }
+  }
 }

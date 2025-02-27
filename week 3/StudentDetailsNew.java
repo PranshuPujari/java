@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StudentDetailsNew  {
     public static void main(String[] args) {
-       try( Scanner scanner = new Scanner(System.in)){
+    Scanner scanner = new Scanner(System.in);
         
         String[] names = new String[5];
         int[] ages = new int[5];
@@ -26,7 +26,7 @@ public class StudentDetailsNew  {
         scanner.close();
     }
   }
-}
+
 
 /*
 Algorithm:

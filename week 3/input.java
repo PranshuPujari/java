@@ -6,7 +6,7 @@ public static void main (String[] args) {
 
 //Create a new Scanner object to get input from the keyboard
 
-try(Scanner input = new Scanner(System.in)){
+Scanner input = new Scanner(System.in);
 
 //Ask the user to enter a String
 
@@ -28,6 +28,5 @@ System.out.println("Hi " + name + ". Good ta see ya!");
 
 System.out.println("In 10 years you will be: "+(age+10));
 
-}
 }
 }

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RunningTotalCalculatorNew {
     public static void main(String[] args) {
-      try(  Scanner scanner = new Scanner(System.in)){
+    Scanner scanner = new Scanner(System.in);
         
         double total = 0; // Variable to store running total
         
@@ -20,4 +20,4 @@ public class RunningTotalCalculatorNew {
         scanner.close();
     }
   }
-}
+

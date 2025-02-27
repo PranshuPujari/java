@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class GetInput {
 public static void main(String[] args) {
 //Create an object of Scanner class to help get input
-  try(Scanner myInput = new Scanner(System.in)){
+Scanner myInput = new Scanner(System.in);
 //declare 4 memory boxes (variables)
 int num1, num2, num3, total;
 //get input
@@ -18,4 +18,4 @@ total = num1+num2+num3;
 System.out.println("Sum of "+num1+", "+num2+", "+num3+" is "+total);
 }
 }
-}
+
